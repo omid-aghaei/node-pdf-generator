@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+  <div id="app">
+    <div class="break-inside-avoid" v-for="(row, index) in data" :key="index">
+        {{row}}
+    </div>
+  </div>
+  <script type="module">
+    import { createApp, ref } from "_____ARG_HOST_____/assets/vue.esm-browser.js";
+    // ------------------------------------------------------------
+    const app = createApp({
+      setup() {
+        const data = ref(_____ARG_DATA_____)
+        return { data };
+      },
+    })
+    // ------------------------------------------------------------
+    app.mount("#app");
+  </script>
+</body>
+
+</html>
