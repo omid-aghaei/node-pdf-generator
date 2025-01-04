@@ -1,3 +1,4 @@
+![node-pdf-generator](https://socialify.git.ci/omid-aghaei/node-pdf-generator/image?custom_description=A+Node-Express+web+server+that+supports+user+input+via+a+POST+API+call%2C+generates+PDF+pages+based+on+that+input&description=1&font=Raleway&language=1&name=1&owner=1&pattern=Brick+Wall&theme=Dark)
 
 This Node.js application combines Puppeteer, ExpressJS, Vue.js, and Tailwind CSS to create a web server that supports user input via a POST API call, generates PDF pages based on that input, and returns the PDF in Blob format in the response. The application is also dockerized, allowing you to create a Docker image based on the Dockerfile included in the project directory.
 
